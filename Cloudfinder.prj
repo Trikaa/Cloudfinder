@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description>test</description>
+   <name>Cloudfinder</name>
+   <tag></tag>
+   <UUID>f2f8ae9d-2e0a-4516-bda6-31610e7f58b5</UUID>
+   <migratedVersion>5.4.0</migratedVersion>
+   <pageLoadTimeout>0</pageLoadTimeout>
+</Project>

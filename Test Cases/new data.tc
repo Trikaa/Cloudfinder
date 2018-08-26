@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>new data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ea1d458a-7ef8-4679-b62a-d48f46c01d46</testCaseGuid>
+   <variable>
+      <defaultValue>'Sam Yosemite'</defaultValue>
+      <description></description>
+      <id>076b2fea-8267-4c50-9978-4332f7920263</id>
+      <masked>false</masked>
+      <name>variable1</name>
+   </variable>
+   <variable>
+      <defaultValue>'200 E Main St. Phoenix USA'</defaultValue>
+      <description></description>
+      <id>d316065a-7297-4d1e-8417-6562e9b602f6</id>
+      <masked>false</masked>
+      <name>variable2</name>
+   </variable>
+   <variable>
+      <defaultValue>'+1 222 333'</defaultValue>
+      <description></description>
+      <id>81218d64-2ca3-4f07-b61e-be6690205317</id>
+      <masked>false</masked>
+      <name>variable3</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>25546450-5690-4982-ba9c-d2909f4cb22d</id>
+      <masked>false</masked>
+      <name>variable21</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>03cf640b-d65f-40eb-b85e-200793004517</id>
+      <masked>false</masked>
+      <name>variable31</name>
+   </variable>
+</TestCaseEntity>

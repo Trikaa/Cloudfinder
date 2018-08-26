@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>restore</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>809ec9c2-1213-4787-a746-5652822b78a8</testCaseGuid>
+   <variable>
+      <defaultValue>'Sam Yosemite'</defaultValue>
+      <description></description>
+      <id>62a2c70b-2cad-4399-bffe-c222825c2405</id>
+      <masked>false</masked>
+      <name>variable1</name>
+   </variable>
+</TestCaseEntity>

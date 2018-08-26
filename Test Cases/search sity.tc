@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>search sity</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>325e4e72-a8ae-4dc5-8854-f4778bab7657</testCaseGuid>
+   <variable>
+      <defaultValue>'Sam Yosemite'</defaultValue>
+      <description></description>
+      <id>3bf26bcd-e25d-4d8f-9657-1668cd4f270d</id>
+      <masked>false</masked>
+      <name>variable1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Phoenix'</defaultValue>
+      <description></description>
+      <id>910a3a56-2e2e-4dc8-a1a2-c88f8144da13</id>
+      <masked>false</masked>
+      <name>variable2</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>find user contact Andrii Trikachov in Cloudfinder from Office365</description>
+   <name>user search</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>867f9907-363c-4649-81c5-78ca4df369b3</testCaseGuid>
+   <variable>
+      <defaultValue>'Sam Yosemite'</defaultValue>
+      <description></description>
+      <id>5cba9683-a6fd-4a77-b0c8-f3423221e3a3</id>
+      <masked>false</masked>
+      <name>variable1</name>
+   </variable>
+</TestCaseEntity>
