@@ -8,8 +8,15 @@
    <variable>
       <defaultValue>'Sam Yosemite'</defaultValue>
       <description></description>
-      <id>62a2c70b-2cad-4399-bffe-c222825c2405</id>
+      <id>9fa6d524-167d-4e00-a50e-1402f0c83850</id>
       <masked>false</masked>
       <name>variable1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Completed'</defaultValue>
+      <description></description>
+      <id>c85ee811-2664-406e-8447-20e0c7735f50</id>
+      <masked>false</masked>
+      <name>variable2</name>
    </variable>
 </TestCaseEntity>

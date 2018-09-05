@@ -27,39 +27,46 @@ WebUI.setText(findTestObject('Page_Cloudfinder  Login/input_j_password'), 'Afore
 
 WebUI.click(findTestObject('Page_Cloudfinder  Login/input_btn btn-default'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Cloudfinder  Dashboard/input_q (1)'), 'sam')
+WebUI.waitForElementHasAttribute(findTestObject('Page_Cloudfinder  Dashboard/span_Status Completed'), variable2, 30)
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_Cloudfinder  Dashboard/input_q (1)'), Keys.chord(Keys.ENTER))
+WebUI.setText(findTestObject('Object Repository/Page_Cloudfinder  Dashboard/input_q (1) (1)'), 'sam')
 
-WebUI.click(findTestObject('Object Repository/Page_Cloudfinder  Search/strong_Sam Yosemite_1 (1) (1) (1)'))
+WebUI.sendKeys(findTestObject('Object Repository/Page_Cloudfinder  Dashboard/input_q (1) (1)'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/Page_Cloudfinder  Search/dl_Name            Sam Yosemit (1) (1)'))
+WebUI.click(findTestObject('Page_Cloudfinder  Search/strong_Sam Yosemite'))
+
+WebUI.click(findTestObject('Page_Cloudfinder  Search/dl_Name            Sam Yosemit'))
 
 WebUI.verifyTextPresent(variable1, true)
 
-WebUI.click(findTestObject('Object Repository/Page_Cloudfinder  Search/button_2018-08-23 123124 (1)'))
+WebUI.click(findTestObject('Page_Cloudfinder  Search/button_2018-08-23 123124 (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Cloudfinder  Search/a_2018-08-22 114609 (1)'))
+WebUI.click(findTestObject('Page_Cloudfinder  Search/a_2018-08-22 114609 (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Cloudfinder  Search/button_Restore'))
+WebUI.click(findTestObject('Page_Cloudfinder  Search/button_Restore'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Cloudfinder  Search/input_s2id_autogen8_search'), 'AT')
+WebUI.setText(findTestObject('Page_Cloudfinder  Search/input_s2id_autogen8_search'), 'AT')
 
-WebUI.click(findTestObject('Object Repository/Page_Cloudfinder  Search/div_ATaugust19.onmicrosoft.com'))
+WebUI.click(findTestObject('Page_Cloudfinder  Search/div_ATaugust19.onmicrosoft.com'))
 
-WebUI.click(findTestObject('Object Repository/Page_Cloudfinder  Search/button_Proceed'))
+WebUI.click(findTestObject('Page_Cloudfinder  Search/button_Proceed'))
 
-WebUI.click(findTestObject('Object Repository/Page_Cloudfinder  Search/button_Restore'))
+WebUI.click(findTestObject('Page_Cloudfinder  Search/button_Restore'))
 
-WebUI.click(findTestObject('Object Repository/Page_Cloudfinder  Search/button_Close'))
+WebUI.click(findTestObject('Page_Cloudfinder  Search/button_Close'))
 
-WebUI.click(findTestObject('Object Repository/Page_Cloudfinder  Search/a_ Dashboard'))
+WebUI.click(findTestObject('Page_Cloudfinder  Search/a_ Dashboard'))
 
-WebUI.click(findTestObject('Object Repository/Page_Cloudfinder  Dashboard/a_Restore'))
+WebUI.click(findTestObject('Object Repository/Page_Cloudfinder  Dashboard/a_Restore (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Cloudfinder  Dashboard/div_Date'))
+WebUI.waitForElementHasAttribute(findTestObject('Page_Cloudfinder  Dashboard/div_Backup  Restore  Export   '), variable2, 
+    30)
 
-WebUI.click(findTestObject('Object Repository/Page_Cloudfinder  Dashboard/a_Reports'))
+WebUI.click(findTestObject('Object Repository/Page_Cloudfinder  Dashboard/a_Reports (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Cloudfinder  Status Reports/a_Restore'))
+WebUI.click(findTestObject('Object Repository/Page_Cloudfinder  Status Reports/a_Restore (1)'))
+
+WebUI.waitForElementHasAttribute(findTestObject('Object Repository/Page_Cloudfinder  Reports/div_Reports'), variable2, 30)
+
+WebUI.closeBrowser()
 

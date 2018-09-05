@@ -27,13 +27,15 @@ WebUI.setText(findTestObject('Page_Cloudfinder  Login/input_j_password'), 'Afore
 
 WebUI.click(findTestObject('Page_Cloudfinder  Login/input_btn btn-default'))
 
-WebUI.setText(findTestObject('Page_Cloudfinder  Dashboard/input_q'), 'sam')
+WebUI.waitForElementHasAttribute(findTestObject('Page_Cloudfinder  Dashboard/span_Status Completed'), variable2, 30)
 
-WebUI.sendKeys(findTestObject('Page_Cloudfinder  Dashboard/input_q'), Keys.chord(Keys.ENTER))
+WebUI.setText(findTestObject('Object Repository/Page_Cloudfinder  Dashboard/input_q (2)'), 'sam')
 
-WebUI.click(findTestObject('Object Repository/Page_Cloudfinder  Search/strong_Sam Yosemite_1 (1) (1)'))
+WebUI.sendKeys(findTestObject('Object Repository/Page_Cloudfinder  Dashboard/input_q (2)'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/Page_Cloudfinder  Search/dl_Name            Sam Yosemit (1)'))
+not_run: WebUI.click(findTestObject('Page_Cloudfinder  Search/strong_Sam Yosemite_1 (1) (1)'))
+
+not_run: WebUI.click(findTestObject('Page_Cloudfinder  Search/dl_Name            Sam Yosemit (1)'))
 
 WebUI.verifyTextPresent(variable1, true)
 
