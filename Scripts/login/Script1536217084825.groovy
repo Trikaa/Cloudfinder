@@ -18,21 +18,12 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('login'), [('user') : 'AT@august19.onmicrosoft.com', ('passwd') : 'Afore-2245995'], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('https://app.cloudfinder.com/#/login')
 
-WebUI.verifyElementPresent(findTestObject('Page_Cloudfinder  Dashboard/span_Status Completed'), 30)
+WebUI.setText(findTestObject('Page_Cloudfinder  Login/input_j_username'), user)
 
-WebUI.setText(findTestObject('Page_Cloudfinder  Dashboard/input_q'), 'sam')
+WebUI.setText(findTestObject('Page_Cloudfinder  Login/input_j_password'), passwd)
 
-WebUI.sendKeys(findTestObject('Page_Cloudfinder  Dashboard/input_q'), Keys.chord(Keys.ENTER))
-
-WebUI.click(findTestObject('Page_Cloudfinder  Search/strong_Sam Yosemite_1 (1) (1)'))
-
-WebUI.click(findTestObject('Page_Cloudfinder  Search/div_Name            Sam Yosemi'))
-
-WebUI.verifyTextPresent(variable1, true)
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Page_Cloudfinder  Login/input_btn btn-default'))
 

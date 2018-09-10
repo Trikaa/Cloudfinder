@@ -19,13 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('https://app.cloudfinder.com/#/login')
-
-WebUI.setText(findTestObject('Page_Cloudfinder  Login/input_j_username'), 'AT@august19.onmicrosoft.com')
-
-WebUI.setText(findTestObject('Page_Cloudfinder  Login/input_j_password'), 'Afore-2245995')
-
-WebUI.click(findTestObject('Page_Cloudfinder  Login/input_btn btn-default'))
+WebUI.callTestCase(findTestCase('login'), [('user') : 'AT@august19.onmicrosoft.com', ('passwd') : 'Afore-2245995'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementHasAttribute(findTestObject('Page_Cloudfinder  Dashboard/span_Status Completed'), variable2, 30)
 

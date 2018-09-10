@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fd67f8ad-ffa1-4d15-a3ec-9a0efc761f07</testCaseGuid>
+   <variable>
+      <defaultValue>'AT@august19.onmicrosoft.com'</defaultValue>
+      <description></description>
+      <id>3c4a6706-b9d1-4a18-81f3-d2844f032ec6</id>
+      <masked>false</masked>
+      <name>user</name>
+   </variable>
+   <variable>
+      <defaultValue>'Afore-2245995'</defaultValue>
+      <description></description>
+      <id>13c821f4-d2fe-4aef-978e-23b6bc247107</id>
+      <masked>false</masked>
+      <name>passwd</name>
+   </variable>
+</TestCaseEntity>

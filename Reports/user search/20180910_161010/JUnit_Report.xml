@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="user search" time="16" tests="1" failures="0" errors="0">
+   <testsuite name="user search" tests="1" failures="0" errors="0" time="16" timestamp="2018-09-10 16:10:14" hostname="Andrew - DESKTOP-M6TP6N7" id="Test Suites/user search">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Andrew\\Katalon Studio\\Cloudfinder\\Reports\\user search\\20180910_161010"/>
+         <property name="logFiles" value="C:\\Users\\Andrew\\Katalon Studio\\Cloudfinder\\Reports\\user search\\20180910_161010\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Andrew - DESKTOP-M6TP6N7"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.1.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="192.168.0.103"/>
+         <property name="sessionId" value="8c49cd689773e55d123e970a2fe16b3f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/login" classname="Test Cases/login" status="PASSED">
+         <system-out><![CDATA[2018-09-10 16:10:15 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+2018-09-10 16:10:16 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://app.cloudfinder.com/#/login'
+
+2018-09-10 16:10:25 - [MESSAGE][PASSED] - Browser is opened with url: 'https://app.cloudfinder.com/#/login'
+
+2018-09-10 16:10:25 - [TEST_STEP][PASSED] - setText: Text 'AT@august19.onmicrosoft.com' is set on object 'Object Repository/Page_Cloudfinder  Login/input_j_username'
+
+2018-09-10 16:10:26 - [MESSAGE][PASSED] - Text 'AT@august19.onmicrosoft.com' is set on object 'Object Repository/Page_Cloudfinder  Login/input_j_username'
+
+2018-09-10 16:10:26 - [TEST_STEP][PASSED] - setText: Text 'Afore-2245995' is set on object 'Object Repository/Page_Cloudfinder  Login/input_j_password'
+
+2018-09-10 16:10:27 - [MESSAGE][PASSED] - Text 'Afore-2245995' is set on object 'Object Repository/Page_Cloudfinder  Login/input_j_password'
+
+2018-09-10 16:10:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Cloudfinder  Login/input_btn btn-default' is clicked on
+
+2018-09-10 16:10:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Cloudfinder  Login/input_btn btn-default' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-10 16:10:14 - [TEST_SUITE][PASSED] - user search: Test Cases/login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
